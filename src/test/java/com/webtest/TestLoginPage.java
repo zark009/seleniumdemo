@@ -38,7 +38,7 @@ public class TestLoginPage  {
 	public void test_login_page_02() {
 		String caseContent="xxxxx功能验证2";
 		logger.info(caseContent);
-		LoginPage page=new LoginPage(driver);
+		LoginPage page= new LoginPage(driver);
 		page.load();
 		
 		page.close();
